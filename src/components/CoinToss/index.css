@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  background: linear-gradient(#f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #a35200;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.para {
+  color: #334155;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 30px;
+  width: 90px;
+}
+
+.toss-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toss-details {
+  color: #475569;
+  margin: 20px;
+}
